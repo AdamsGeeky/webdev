@@ -1,0 +1,40 @@
+.container{
+	transition: 0.4s;
+	width: 200px;
+	float: left;
+	clear: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	box-shadow: 4px 6px 4px rgba(0, 0, 0, .20);
+}
+.container img{
+	width: 100%;
+}
+.text{
+	text-align: justify;
+	padding: 10px;
+}
+.text h4{
+	text-align: center;
+}
+.container:hover {
+	cursor: pointer;
+	transform: scale(1.02); 
+	box-shadow 4px 6px 8px rgba(0, 0, 0, .20);
+
+}
+/* " people care about result not effort" --nazir
+
+*/
+.col1:hover{
+	color: green;
+}
+.col2:hover{
+	color: red;
+}
+.col3:hover{
+	color: black;
+}
+.col4:hover{
+	color: blue;
+}
